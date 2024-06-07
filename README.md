@@ -6,7 +6,7 @@ Template starter easily Developer friendly every knowledge level to build onchai
 <p align="center">
   <a href="https://linktr.ee/nid_z">
       <picture>
-        <img alt="logo" src="https://github.com/nidz-the-fact/React-with-Vitejs-for-Walletconnect-to-Starter-Web3/blob/main/nidz-the-fact-cover.png" width="100%" height="400">
+        <img alt="logo" src="https://github.com/nidz-the-fact/React-with-Vitejs-for-Rainbowkit-to-Starter-Web3/blob/main/nidz-the-fact-cover.png" width="100%" height="400">
       </picture>
 </a>
 </p>
@@ -66,23 +66,21 @@ Libraries, frameworks that are perfect and comprehensive. Can be used in a varie
 ## ⚙️ Settings
 
 <pre>
-├── <a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Walletconnect-to-Starter-Web3/blob/main/.env"><b>1.Define api in .env</b></a>
+├── <a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Rainbowkit-to-Starter-Web3/blob/main/.env"><b>1.Define api in .env</b></a>
 ├── <a href=""><b>2.`npm install` & `npm run dev` : To start the server in development.</b></a>
-├── <a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Walletconnect-to-Starter-Web3/blob/main/src/main.jsx#L14C1-L14C84"><b>3.Network adjustment.</b></a>
-├── <a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Walletconnect-to-Starter-Web3/blob/main/src/main.jsx#L38C1-L51C3"><b>4.Set additional information for your network.</b></a>
-├── <a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Walletconnect-to-Starter-Web3/tree/main/src/components"><b>5.Manage components for each page as needed.</b></a>
-├── <a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Walletconnect-to-Starter-Web3/blob/main/src/Blockchain/ReadContract.jsx"><b>6.Example of reading and calling functions from Smart contract.</b></a>
-├── <a href=""><b>7.`npm run build` : You will get a dist file and upload it to the website.</b></a>
+├── <a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Rainbowkit-to-Starter-Web3/blob/main/src/main.jsx#L32C3-L32C66"><b>3.Network adjustment.</b></a>
+├── <a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Rainbowkit-to-Starter-Web3/blob/main/src/App.jsx#L8-L15"><b>4.Manage components for each page as needed.</b></a>
+├── <a href=""><b>5.`npm run build` : You will get a dist file and upload it to the website.</b></a>
 </pre>
 
 ## ⚒️ Use deployment
 
 ```
-npx degit https://github.com/nidz-the-fact/React-with-Vitejs-for-Walletconnect-to-Starter-Web3 your-name-project
+npx degit https://github.com/nidz-the-fact/React-with-Vitejs-for-Rainbowkit-to-Starter-Web3 your-name-project
 ```
 or
 ```
-git clone https://github.com/nidz-the-fact/React-with-Vitejs-for-Walletconnect-to-Starter-Web3.git
+git clone https://github.com/nidz-the-fact/React-with-Vitejs-for-Rainbowkit-to-Starter-Web3
 ```
 
 ---
