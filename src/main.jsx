@@ -14,22 +14,29 @@ import {
 } from "@tanstack/react-query";
 import { WagmiProvider } from 'wagmi';
 import {
-  sepolia,
-  optimismSepolia,
-  thaiChain,
-  jbc,
-  jbcTestnet
-} from 'wagmi/chains';
-import {
   getDefaultConfig,
   RainbowKitProvider,
 } from '@rainbow-me/rainbowkit';
+import {
+  jbc,
+} from 'viem/chains';
+// import {
+//   sepolia,
+//   optimismSepolia,
+// } from 'opstack-kit/chains';
+
+import { pomChaincustom } from './pomChaincustom.ts'
+// import { lavaChaincustom } from './lavaChaincustom.ts'
 
 
 const config = getDefaultConfig({
   appName: 'My RainbowKit App',
   projectId: import.meta.env.VITE_SOME_KEY, // .env
-  chains: [sepolia, optimismSepolia, thaiChain, jbc, jbcTestnet],
+  chains: [
+    jbc, 
+    pomChaincustom, 
+    // lavaChaincustom
+  ],
   ssr: true, // If your dApp uses server side rendering (SSR)
 });
 
